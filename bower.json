@@ -1,0 +1,27 @@
+{
+  "name": "openaction",
+  "version": "1.3.0",
+  "authors": [
+    "Manuel <manuel.leone@gmail.com>"
+  ],
+  "description": "Open Action layout",
+  "main": "index.html",
+  "keywords": [
+    "bootstrap",
+    "openaction",
+    "html",
+    "layout"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>OpenAction</title>
+        <!-- Bootstrap -->
+        <link href="scripts/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <!-- Cusotm style -->
+        <link href="css/main.css?v=1.3" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+        <!--script type="text/javascript" src="//use.typekit.net/sms1oqv.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script-->
+    </head>
+    <body>
+        <div class="container-full">
+            <header id="header">
+                <div class="container">
+                    <!-- Static navbar -->
+                    <div class="navbar navbar-default navbar-main" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Mostra/nascondi nvigazione</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">OPEN<strong>ACTION</strong></a>
+                        </div>
+
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Tutte le petizioni <span class="sep"></span></a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtra per luogo <i class="fa fa-chevron-down"></i><span class="sep"></a>
+                                    <ul class="dropdown-menu multi-column multi-4">
+                                        <li>
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-3">
+                                                    <li><a href="#">Abruzzo (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Emilia Romagna (<strong>90</strong>)</a></li>
+                                                    <li><a href="#">Lombardia (<strong>89</strong>)</a></li>
+                                                    <li><a href="#">Puglia (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trentino Alto Aldige (<strong>57</strong>)</a></li>
+                                                </ul>
+                                                <ul class="list-unstyled col-md-3">
+                                                    <li><a href="#">Abruzzo 1(<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Emilia Romagna (<strong>90</strong>)</a></li>
+                                                    <li><a href="#">Lombardia (<strong>89</strong>)</a></li>
+                                                    <li><a href="#">Puglia (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trentino Alto Aldige (<strong>57</strong>)</a></li>
+                                                </ul>
+                                                <ul class="list-unstyled col-md-3">
+                                                    <li><a href="#">Abruzzo 2(<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Emilia Romagna (<strong>90</strong>)</a></li>
+                                                    <li><a href="#">Lombardia (<strong>89</strong>)</a></li>
+                                                    <li><a href="#">Puglia (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trentino Alto Aldige (<strong>57</strong>)</a></li>
+                                                </ul>
+                                                <ul class="list-unstyled col-md-3">
+                                                    <li><a href="#">Abruzzo 3(<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Emilia Romagna (<strong>90</strong>)</a></li>
+                                                    <li><a href="#">Lombardia (<strong>89</strong>)</a></li>
+                                                    <li><a href="#">Puglia (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trentino Alto Aldige (<strong>57</strong>)</a></li>
+                                                </ul>
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-12">
+                                                    <li>
+                                                        <form role="search" class="navbar-form">
+                                                            <div class="form-group">
+                                                                <input type="text" placeholder="CERCA NEL SITO" class="form-control">
+                                                            </div>
+                                                            <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search"></span></button>
+                                                        </form>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtra per categoria <i class="fa fa-chevron-down"></i><span class="sep"></span></a>
+                                    <ul class="dropdown-menu multi-column">
+                                        <li>
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-12">
+                                                    <li><a href="#">Cooperazione internazionale (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Lotta esclusione sociale povertà (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trasparenza (<strong>104</strong>)</a></li>
+                                                    <li><a href="#">Trasparenza (<strong>104</strong>)</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="CERCA NEL SITO">
+                                </div>
+                                <!--button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button-->
+
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><span class="glyphicon glyphicon-search"></span> <span class="sep"></span></a></li>
+                                <li><a href="#">Admin</a></li>
+                            </ul>
+                        </div><!-- /.nav-collapse -->
+                    </div>
+
+                    <div id="intro">
+                        <div class="titles">
+                            <h1 class="pull-left">TITOLO PETIZIONE LOREM IPSUM DOLOR SIT AMET<br>LOREM IPSUM DOLOR SIT AMET</h1>
+                            <h2 class="pull-left">CLAIM LOREM IPSUM DOLOR SIT AMET</h2>
+                            <div class="info pull-left">
+                                RAGGIUNTE <strong class="current-signs">9.000</strong> FIRME,
+                                HA RISPOSTO <strong class="current-repliers">1</strong> DECISORE
+                            </div>
+                            <button type="button" class="btn pull-left" data-toggle="modal" data-target="#login">ADERISCI</button>
+                        </div>
+                        <figure>
+                            <img src="http://cambelt.co/1500x560/Colors?color=555555" class="img-responsive" alt="Responsive image">
+                        </figure>
+                    </div>
+
+                </div><!-- /.container -->
+
+
+            </header>
+
+            <div id="main">
+                <div class="container">
+                    <div class="row">
+                        <aside id="sidebar" class="col-sm-4 col-md-4">
+                            <div class="box sign-petition">
+                                <hr class="dotted">
+                                <h3 class="text-center">PETIZIONE <strong class="status">APERTA</strong></h3>
+                                <hr class="dotted">
+
+                                <div class="panel panel-default panel-red text-center">
+                                    <div class="panel-body">
+                                        <hr class="striped">
+                                        <p>
+                                            RAGGIUNTE<br>
+                                            <span class="h2">
+                                                <strong>9.900</strong> FIRME
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#login">ADERISCI</button>
+                                        </p>
+                                        <div id="pie"></div>
+                                        <p>
+                                            MANCANO <strong class="remaining">100</strong> FIRME<br>
+                                            ALL'INVIO DELLA PROSSIMA EMAIL<br>
+                                            AI <strong class="total-repliers">6</strong> DECISORI
+                                        </p>
+                                        <hr class="striped">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="striped">
+
+                            <div class="box supporters">
+                                <h3 class="title">
+                                    CHI HA FIRMATO<br>
+                                    <small><strong>9.900</strong> SOSTENITORI</small>
+                                </h3>
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-pils nav-justified">
+                                    <li class="active"><a href="#last-supporters" data-toggle="tab" class="red">ULTIMI SOSTENITORI</a></li>
+                                    <li><a href="#most-actives" data-toggle="tab" class="red">I PIÙ ATTIVI</a></li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="last-supporters">
+                                        <ul class="list-unstyled supporters">
+                                            <li class="media">
+                                                <figure class="pull-left img-circle">
+                                                    <img class="media-object" src="http://cambelt.co/42x42/Colors?color=21991b" alt="avatar">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h4>
+                                                        <a href="#">NOME COGNOME</a>
+                                                        <small>1 SETTIMANA FA</small>
+                                                    </h4>
+                                                    <p>
+                                                        <i class="fa fa-star"></i> RECLUTATORE,
+                                                        L'AQUILA, ITA<br>
+                                                        HA CONVINTO 100 PERSONE
+                                                    </p>
+                                                </div>
+                                                <div class="popover bottom">
+                                                    <div class="arrow"></div>
+                                                    <div class="popover-content">
+                                                        <p>HO ADERITO PERCHÉ.. Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                        lorem vel, feugiat sagittis eros.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <figure class="pull-left img-circle">
+                                                    <img class="media-object" src="http://cambelt.co/42x42/Colors?color=4a75c3" alt="avatar">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h4>
+                                                        <a href="#">NOME COGNOME</a>
+                                                        <small>1 SETTIMANA FA</small>
+                                                    </h4>
+                                                    <p>
+                                                        L'AQUILA, ITA<br>
+                                                        HA CONVINTO 2 PERSONE
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <figure class="pull-left img-circle">
+                                                    <img class="media-object" src="http://cambelt.co/42x42/Colors?color=333333" alt="avatar">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h4>
+                                                        <a href="#">NOME COGNOME</a>
+                                                        <small>1 SETTIMANA FA, 2 GIORNI FA</small>
+                                                    </h4>
+                                                    <p>
+                                                        L'AQUILA, ITA
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <p class="clearfix text-right">
+                                            <button type="button" class="btn btn-link btn-xs round-none red">VEDI TUTTI <i class="fa fa-chevron-right"></i></button>
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="most-actives">
+                                        <p>
+                                            Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                            lorem vel, feugiat sagittis eros. Suspendisse ut arcu metus. Ut ipsum purus, condimentum
+                                            id vestibulum vitae, feugiat bibendum purus. Cras rhoncus tempor aliquet. Quisque
+                                            feugiat elit dui, sit amet semper purus facilisis eget. Etiam sed adipiscing arcu.
+                                            commodo sodales ante, non congue justo faucibus eu.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="striped">
+
+                        </aside>
+                        <div id="content" class="col-sm-8 col-md-8">
+                            <hr class="striped">
+                            <article class="description read-more">
+                                <p class="lead">
+                                    VENEZIA È COSTRUITA SU FONDAMENTA IN LEGNO MILLENARIE. ATTUALMENTE LE GRANDI
+                                    NAVI TURISTICHE ACCEDONO NEI CANALI DELLA CITTÀ E ATTRACCANO AD UN PALMO DALLA TERRA FERMA,
+                                    MINACCIANDONE LE FONDAMENTA.
+                                </p>
+                                <p>
+                                    GENTILISSIMI RESPONSABILI DEL FUTURO DI UN PATRIMONIO DEL PIANETA QUALE È VENEZIA,
+                                    VI CHIEDO DI DIMOSTRARE A NOME DEL MONDO CHE CI OSSERVA, LA VOSTRA SAGGEZZA NELL’INTERDIRE
+                                    IMMEDIATAMENTE L’INGRESSO DELLE GRANDI NAVI NELLA ROTTA TURISTICA DI VENEZIA.
+                                </p>
+                                <p>
+                                    GENTILISSIMI RESPONSABILI DEL FUTURO DI UN PATRIMONIO DEL PIANETA QUALE È VENEZIA,
+                                    VI CHIEDO DI DIMOSTRARE A NOME DEL MONDO CHE CI OSSERVA, LA VOSTRA SAGGEZZA NELL’INTERDIRE
+                                    IMMEDIATAMENTE L’INGRESSO DELLE GRANDI NAVI NELLA ROTTA TURISTICA DI VENEZIA.
+                                </p>
+                                <p>
+                                    GENTILISSIMI RESPONSABILI DEL FUTURO DI UN PATRIMONIO DEL PIANETA QUALE È VENEZIA,
+                                    VI CHIEDO DI DIMOSTRARE A NOME DEL MONDO CHE CI OSSERVA, LA VOSTRA SAGGEZZA NELL’INTERDIRE
+                                    IMMEDIATAMENTE L’INGRESSO DELLE GRANDI NAVI NELLA ROTTA TURISTICA DI VENEZIA.
+                                </p>
+                                <p>
+                                    GENTILISSIMI RESPONSABILI DEL FUTURO DI UN PATRIMONIO DEL PIANETA QUALE È VENEZIA,
+                                    VI CHIEDO DI DIMOSTRARE A NOME DEL MONDO CHE CI OSSERVA, LA VOSTRA SAGGEZZA NELL’INTERDIRE
+                                    IMMEDIATAMENTE L’INGRESSO DELLE GRANDI NAVI NELLA ROTTA TURISTICA DI VENEZIA.
+                                </p>
+                            </article>
+
+                            <hr class="no-border">
+
+                            <div class="row details">
+                                <div class="col-sm-6 col-md-4">
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                            <figure class="pull-left img-circle">
+                                                <img class="media-object" src="http://cambelt.co/42x42/Colors?color=21991b" alt="avatar">
+                                            </figure>
+                                            <div class="media-body">
+                                                PETIZIONE PROMOSSA DA<br>
+                                                <a href="#">NOME COGNOME</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <p>
+                                        PUBBLICATA IL <strong>15.11.2013</strong><br>
+                                        <span class="glyphicon glyphicon-map-marker"></span> <a href="#">ROMA</a>, <a href="#">VENEZIA</a>, <a href="#">VICENZA</a>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="media">
+                                        <span class="glyphicon glyphicon-tags pull-left"></span>
+                                        <div class="media-body">
+                                            <p>
+                                                <a href="#">LOTTA ESCLUSIONE SOCIALE E ALLA POVERTÁ</a>, <a href="#">TRASPARENZA</a>, <a href="#">SISTEMI LOCALI DI CIBO</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="striped">
+
+                            <h3 class="title">
+                                A CHI È RIVOLTA LA PETIZIONE<br>
+                                <small><strong>6</strong> DECISORI A CUI ABBIAMO GIÀ INVIATO <strong>2</strong> MAIL</small>
+                            </h3>
+
+                            <ul class="nav nav-pils nav-justified">
+                                <li><span class="red"><strong>1</strong> HA ADERITO</span></li>
+                                <li><span class="red"><strong>5</strong> NON HANNO ADERITO</span></li>
+                            </ul>
+
+                            <hr class="no-border">
+
+                            <ul class="list-unstyled deciders">
+                                <li class="media">
+                                    <div class="pull-right sign-info">
+                                        <strong>UNA SETTIMANA FA</strong>
+                                        <ul class="list-unstyled pull-right share">
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-envelope"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <figure class="pull-left img-circle">
+                                        <img class="media-object" src="http://cambelt.co/42x42/Colors?color=4a75c3" alt="avatar">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h4>
+                                            <a href="#">NOME COGNOME</a>
+                                        </h4>
+                                        <p><small>PRESIDENTE GIUNTA REGIONE <a href="#">REGIONE</a></small></p>
+                                    </div>
+
+                                    <div class="popover bottom">
+                                        <div class="arrow"></div>
+                                        <div class="popover-content">
+                                            <p>HO ADERITO PERCHÉ.. Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                            lorem vel, feugiat sagittis eros.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="pull-right sign-info">
+                                        <strong>NON HA ANCORA ADERITO</strong>
+                                        <ul class="list-unstyled pull-right share">
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-envelope"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <figure class="pull-left img-circle">
+                                        <img class="media-object" src="http://cambelt.co/42x42/Colors?color=666666" alt="avatar">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h4>
+                                            <a href="#">NOME COGNOME</a>
+                                        </h4>
+                                        <p><small>PRESIDENTE GIUNTA REGIONE <a href="#">REGIONE</a></small></p>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="pull-right sign-info">
+                                        <strong>NON HA ANCORA ADERITO</strong>
+                                        <ul class="list-unstyled pull-right share">
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-envelope"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <figure class="pull-left img-circle">
+                                        <img class="media-object" src="http://cambelt.co/42x42/Colors?color=333333" alt="avatar">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h4>
+                                            <a href="#">NOME COGNOME</a>
+                                        </h4>
+                                        <p><small>PRESIDENTE GIUNTA REGIONE <a href="#">REGIONE</a></small></p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <p class="clearfix text-right">
+                                <button type="button" class="btn btn-link btn-xs round-none red">VEDI TUTTI <i class="fa fa-chevron-right"></i></button>
+                            </p>
+
+                            <hr class="striped">
+
+                            <div class="row clearfix">
+                                <div class="col-md-8">
+                                    <h3 class="title">
+                                        ULTIME NOTIZIE
+                                    </h3>
+                                    <ul class="list-unstyled news">
+                                        <li class="media">
+                                            <div class="cal pull-left">
+                                                <span class="day">14</span>
+                                                <span class="month">NOV</span>
+                                                <span class="year">2013</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>
+                                                    <a href="#">RAGGIUNTE 9.900 FIRME</a>
+                                                </h4>
+                                                <p>Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                lorem vel, feugiat sagittis eros.</p>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="cal pull-left">
+                                                <span class="day">14</span>
+                                                <span class="month">NOV</span>
+                                                <span class="year">2013</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>
+                                                    <a href="#">RAGGIUNTE 9.900 FIRME</a>
+                                                </h4>
+                                                <p>Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                lorem vel, feugiat sagittis eros.</p>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="cal pull-left">
+                                                <span class="day">14</span>
+                                                <span class="month">NOV</span>
+                                                <span class="year">2013</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>
+                                                    <a href="#">RAGGIUNTE 9.900 FIRME</a>
+                                                </h4>
+                                                 <figure class="pull-left">
+                                                    <img src="http://cambelt.co/128x128/Colors?color=eeeeee" alt="img">
+                                                </figure>
+                                                <p>Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                lorem vel, feugiat sagittis eros.</p>
+                                                <p>Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                lorem vel, feugiat sagittis eros.</p>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="cal pull-left">
+                                                <span class="day">14</span>
+                                                <span class="month">NOV</span>
+                                                <span class="year">2013</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>
+                                                    <a href="#">RAGGIUNTE 9.900 FIRME</a>
+                                                </h4>
+                                                <p>Donec sollicitudin luctus neque vitae suscipit. Curabitur massa massa, feugiat aliquet
+                                                lorem vel, feugiat sagittis eros.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 class="title">
+                                        TWITTER
+                                    </h3>
+                                    <div class="panel default-panel">
+                                        twitter...
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="striped">
+
+                        </div>
+                    </div>
+                </div> <!-- /.container -->
+            </div>
+
+            <footer id="footer">
+                <div class="container">
+                     <!-- Static navbar -->
+                    <div class="navbar navbar-default navbar-main" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Mostra/nascondi nvigazione</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">OPEN<strong>ACTION</strong></a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li class="active"><a href="#">Come fare per</a></li>
+                                <li><a href="#">Su di noi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div> <!-- /.container-full -->
+
+        <div class="modal fade" id="login">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">ACCEDI AD OPENACTION</h4>
+                        <hr class="striped">
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <span class="or">O</span>
+                            <div class="col-sm-6 sep">
+                                <h5>COLLEGATI A &hellip;</h5>
+                                <ul class="list-unstyled oauth">
+                                    <li><button type="button" class="btn btn-primary btn-twitter"><i class="fa fa-twitter"></i> Collegati a Twitter</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-google"><i class="fa fa-google-plus"></i> Collegati a Google</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-facebook"><i class="fa fa-facebook"></i> Collegati a Facebook</button></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <h5>ACCEDI CON EMAIL</h5>
+                                <form role="form">
+                                    <div class="form-group">
+                                      <label for="username" class="sr-only">Nome Utente</label>
+                                      <input type="text" class="form-control" id="username" placeholder="Nome Utente">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="pwd" class="sr-only">Password</label>
+                                      <input type="password" class="form-control" id="pwd" placeholder="Password">
+                                    </div>
+                                    <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox"> Ricorda password
+                                      </label>
+                                    </div>
+                                    <div class="pull-right small">
+                                        <a href="#">REIMPOSTA PASSWORD</a><br>
+                                        <a href="#">CREA UN ACCOUNT</a>
+                                    </div>
+                                    <button type="submit" class="btn btn-default btn-xs red">ACCEDI</button>
+                                  </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <hr class="striped">
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="scripts/vendor/jquery/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="scripts/vendor/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- Raphael -->
+        <script src="scripts/vendor/raphael/raphael.js"></script>
+        <script src="scripts/vendor/g.raphael/g.raphael.js"></script>
+        <script src="scripts/vendor/g.raphael/g.pie.js"></script>
+        <!-- Custom scripts -->
+        <script src="scripts/vendor/readmore/readmore.js"></script>
+        <script src="scripts/main.js?v=1.3"></script>
+        <!-- Live.js for developement -->
+        <script src="scripts/live.js"></script>
+    </body>
+</html>
