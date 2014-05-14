@@ -1,7 +1,5 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-@import url(//fonts.googleapis.com/css?family=Cabin:400,600,700,400italic,600italic,700italic);
-
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
 /**
  * Main style
@@ -21,7 +19,9 @@
 @normal:        400;
 @heavy:         700;
 */
-/*@baseFontSize:  14px;
+/*
+@import url(//fonts.googleapis.com/css?family=Cabin:400,600,700,400italic,600italic,700italic);
+@baseFontSize:  14px;
 @mainFont:      "Cabin", sans-serif;
 @light:         400;
 @normal:        400;
@@ -312,7 +312,7 @@ a:focus {
   opacity: 1;
   width: 50px;
   height: 50px;
-  line-height: 55px;
+  line-height: 65px;
   padding: 0;
   text-shadow: none;
 }
@@ -321,6 +321,7 @@ a:focus {
   left: auto;
   right: auto;
   top: auto;
+  margin: 0;
 }
 #header #intro .controls .carousel-control:hover {
   color: #c4061c;
